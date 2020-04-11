@@ -13,7 +13,8 @@ modules = [
         'type': 'list',
         'name': 'option_selected',
         'message': "",
-        'choices': ['Hello World',
+        'choices': ['Introduction to Python'
+                    'Comment your Python code',
                     'Variable and Data Types', 
                     'Working with Numbers', 
                     'Getting input from users', 
@@ -38,6 +39,6 @@ modules = [
         'filter': lambda val: val.lower()
     }
 ]
-
-module_selection = prompt(modules, style=custom_style_3)
-pprint(module_selection)
+def selection :
+    module_selection = prompt(modules, style=custom_style_3)
+    return module_selection
